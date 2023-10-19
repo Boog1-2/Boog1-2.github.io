@@ -1,35 +1,48 @@
-<table border="1">
-    <caption>Different Fruits</caption>
-    <thead>
-        <tr>
-            <th>Bannana</th>
-            <th>Apple</th>
-            <th colspan="2">Tomato</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Smells good</td>
-            <td>Tastes good</td>
-            <td>Looks good</td>
-            <td>Is yellow</td>
-        </tr>
-        <tr>
-            <td>Tastes good</td>
-            <td>Smells good</td>
-            <td>Looks good</td>
-            <td>Is red</td>
-        </tr>
-        <tr>
-            <td>Looks good</td>
-            <td>Tastes good</td>
-            <td>Smells odd</td>
-            <td>Is a brighter red</td>
-        </tr>
-    </tbody>
-</table>
+<html>
+<head>
+    <title>Math Test</title>
+</head>
+<body>
+    <!-- Start of Math Test -->
+    <h1>Math Test</h1>
+    <form action="submit.php" method="post">
+        <!-- Name -->
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required><br><br>
 
-<li>Bannanas are good</li>
-<li>Apples are good</li>
-<li>Tomatos are kinda fruits</li>
+        <!-- Multiple Choice Questions -->
+        <p>1. What is 2 + 3?</p>
+        <input type="radio" name="q1" value="a">5<br>
+        <input type="radio" name="q1" value="b">4<br>
+        <input type="radio" name="q1" value="c">6<br>
 
+        <p>2. What is 8 - 2?</p>
+        <input type="radio" name="q2" value="a">5<br>
+        <input type="radio" name="q2" value="b">6<br>
+        <input type="radio" name="q2" value="c">4<br>
+
+        <p>3. What is 3 * 4?</p>
+        <input type="radio" name="q3" value="a">12<br>
+        <input type="radio" name="q3" value="b">7<br>
+        <input type="radio" name="q3" value="c">9<br>
+
+        <!-- Word Problem -->
+        <p>4. Solve the following word problem:</p>
+        <textarea id="wordProblem" name="wordProblem" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Math Symbols -->
+        <p>5. Calculate 10 &times; 2</p>
+        <input type="text" id="mathSymbol1" name="mathSymbol1" required><br>
+
+        <p>6. Calculate 20 ÷ 4</p>
+        <input type="text" id="mathSymbol2" name="mathSymbol2" required><br>
+
+        <p>7. Find the square root of 25 (√25)</p>
+        <input type="text" id="mathSymbol3" name="mathSymbol3" required><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+    <!-- End of Math Test -->
+</body>
+</html>
