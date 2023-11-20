@@ -1,76 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>GCzebotar Day Schedule</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Introduction</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
       text-align: center;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    table {
-      width: 80%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-
-    th, td {
       padding: 10px;
-      border: 1px solid #3498db;
     }
 
+    nav {
+      float: left;
+      width: 20%;
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    section {
+      float: left;
+      width: 80%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .team-member {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
 
-  <h1>My Schedule</h1>
+  <header>
+    <h1>Meet Our Team</h1>
+  </header>
 
-  <table>
-    <tr>
-      <th>Time</th>
-      <th>Task</th>
-    </tr>
-    <tr>
-      <td>08:00 AM</td>
-      <td>Morning run</td>
-    </tr>
-    <tr>
-      <td>09:30 AM</td>
-      <td>Working on basic web design project</td>
-    </tr>
-    <tr>
-      <td>12:00 PM</td>
-      <td>Lunch</td>
-    </tr>
-    <tr>
-      <td>02:00 PM</td>
-      <td>Virtual school meeting</td>
-    </tr>
-    <tr>
-      <td>04:00 PM</td>
-      <td>Reading a book</td>
-    </tr>
-    <tr>
-      <td>06:00 PM</td>
-      <td>Dinner</td>
-    </tr>
-    <tr>
-      <td>08:00 PM</td>
-      <td>Watching a movie</td>
-    </tr>
-    <tr>
-      <td>10:00 PM</td>
-      <td>Relaxing</td>
-    </tr>
-    <tr>
-      <td>12:00 AM</td>
-      <td>Sleeping</td>
-    </tr>
-  </table>
+  <nav>
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="team-member">
+      <img src="member1.jpg" alt="Team Member 1">
+      <h2>John Doe</h2>
+      <p>John is a passionate team member who loves coding and designing websites. He specializes in front-end development.</p>
+    </div>
+
+    <div class="team-member">
+      <img src="member2.jpg" alt="Team Member 2">
+      <h2>Jane Smith</h2>
+      <p>Jane is our creative designer. She has a keen eye for aesthetics and always comes up with innovative design solutions.</p>
+    </div>
+
+    <div class="team-member">
+      <img src="member3.jpg" alt="Team Member 3">
+      <h2>Bob Johnson</h2>
+      <p>Bob is our back-end wizard. He enjoys solving complex problems and optimizing code for better performance.</p>
+    </div>
+
+    <div class="team-member">
+      <img src="member4.jpg" alt="Team Member 4">
+      <h2>Alice Brown</h2>
+      <p>Alice is our project manager. She ensures that everything runs smoothly and projects are delivered on time.</p>
+    </div>
+  </section>
 
 </body>
+</html>
