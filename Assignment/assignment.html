@@ -1,70 +1,25 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team assignment</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-
-    section {
-      margin: 20px;
-      text-align: center;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 50%;
-    }
-
-    .team-member {
-      display: inline-block;
-      width: 45%;
-      margin: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GCzebotar Puzzle Assignment</title>
 </head>
 <body>
-
-  <header>
-    <h1>Gavons Animal Support Team</h1>
-  </header>
-
-  <section>
-    <div class="team-member">
-      <img src="Dog.jpg" alt="Team Member 1">
-      <h2>Steve</h2>
-      <p>Steve is the most playful and will always cheer you up.</p>
+    <div class="grid-container">
+        <div class="section name">Gavon Czebotar</div>
+        <div class="section puzzle-name">Snowman Puzzle</div>
+        <div class="section date">11/29/23</div>
+        
+        <div class="section puzzle-container">
+            <!-- Flex items go here, assembled with Flexbox -->
+            <div class="puzzle-piece" id="piece1"></div>
+            <div class="puzzle-piece" id="piece2"></div>
+            <!-- Add more puzzle pieces as needed -->
+            <div class="faulty-piece" id="faultyPiece"></div>
+        </div>
     </div>
 
-    <div class="team-member">
-      <img src="Fox.jpg" alt="Team Member 2">
-      <h2>Jane</h2>
-      <p>Jane is the softest and loves to curl up next to you.</p>
-    </div>
-
-    <div class="team-member">
-      <img src="Squerrel.jpg" alt="Team Member 3">
-      <h2>Gus</h2>
-      <p>Gus is the most exotic and a great companion for learning.</p>
-    </div>
-
-    <div class="team-member">
-      <img src="Bird.jpg" alt="Team Member 4">
-      <h2>Tweety</h2>
-      <p>Tweety will sing you a song whenever you ask her to; she loves to sing.</p>
-    </div>
-  </section>
-
+    <script src="script.js"></script>
 </body>
 </html>
+
