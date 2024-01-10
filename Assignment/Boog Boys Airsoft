@@ -6,7 +6,7 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to Boog Boys Airsoft</h1>
+    <h1>Boog Boys Airsoft</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -20,7 +20,7 @@
   </header>
 
   <main>
-    <!-- Content of your index page goes here -->
+   
     <p>Welcome to Boog Boys Airsoft! Check out our latest events and gallery.</p>
   </main>
 
