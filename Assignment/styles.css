@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-  width: 60px; /* Slightly larger logo size */
+  width: 70px; /* Slightly larger logo size */
   margin-right: 20px;
 }
 
@@ -53,6 +53,9 @@ main {
 .picture-section {
   margin-bottom: 40px;
   text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .link-section h2,
