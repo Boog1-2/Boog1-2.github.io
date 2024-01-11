@@ -80,3 +80,36 @@ footer a {
   font-weight: bold;
   color: #fff;
 }
+.youtube-section {
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.youtube-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.youtube-logo {
+  width: 50px; 
+  margin-bottom: 10px;
+}
+
+.youtube-section p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.youtube-section a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.youtube-section a:hover {
+  color: #bbb;
+}
