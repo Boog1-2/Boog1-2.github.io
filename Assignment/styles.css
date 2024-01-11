@@ -50,7 +50,8 @@ main {
 }
 
 .link-section,
-.picture-section {
+.picture-section,
+.sponsorship-section {
   margin-bottom: 40px;
   text-align: center;
   background-color: #333;
@@ -59,7 +60,8 @@ main {
 }
 
 .link-section h2,
-.picture-section img {
+.picture-section img,
+.sponsorship-section img {
   margin-bottom: 10px;
 }
 
@@ -68,22 +70,3 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-.sponsorship-section {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.sponsorship-section p {
-  font-weight: bold;
-  color: #fff;
-}
-
-.sponsorship-section img {
-  max-width: 200px; 
-  margin-top: 10px;
-  display: block; 
-  margin-left: auto;
-  margin-right: auto;
-}
-
