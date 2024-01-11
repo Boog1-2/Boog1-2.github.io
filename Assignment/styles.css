@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-  width: 70px; /* Slightly larger logo size */
+  width: 70px; 
   margin-right: 20px;
 }
 
@@ -68,3 +68,22 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+.sponsorship-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sponsorship-section p {
+  font-weight: bold;
+  color: #fff;
+}
+
+.sponsorship-section img {
+  max-width: 200px; 
+  margin-top: 10px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
